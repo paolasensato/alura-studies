@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Cronometro from '../components/Cronometro';
 import Formulario from '../components/Formulario';
 import Lista from '../components/Lista';
-import ITask from '../types/tarefas';
+import { ITask } from '../types/tarefas';
 import style from './App.module.scss';
 
 function App() {
@@ -26,7 +26,9 @@ function App() {
           tarefas={tasks}
           selecionaTarefa={selecionaTarefa}
         />
-        <Cronometro />
+        <Cronometro 
+          selecionado={selecionado}  
+        />
     </div>
   ); 
 }

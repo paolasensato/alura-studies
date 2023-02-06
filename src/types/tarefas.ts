@@ -1,4 +1,4 @@
-export default interface ITask {
+export interface ITask {
     tarefa: string,
     tempo: string,
     selecionado: boolean,

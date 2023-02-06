@@ -1,9 +1,8 @@
-import ITask from '../../../types/tarefas';
-import style from '../Item.module.scss';
+import { ITask } from '../../../types/tarefas';
+import style from './Item.module.scss';
 
 interface Props extends ITask {
-    selecionaTarefa: (tarefaSelecionada: ITask) => void,
-
+    selecionaTarefa: (tarefaSelecionada: ITask) => void
 }
 
 export default function Item (

@@ -1,5 +1,5 @@
 import React from 'react';
-import ITask from '../../types/tarefas';
+import { ITask } from '../../types/tarefas';
 import Item from './Item';
 import style from './Lista.module.scss';
 

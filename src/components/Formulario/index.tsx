@@ -1,5 +1,5 @@
 import React from "react";
-import ITask from "../../types/tarefas";
+import { ITask } from "../../types/tarefas";
 import Botao from "../Botao";
 import style from './Formulario.module.scss';
 import { v4 as uuidv4 } from 'uuid';
